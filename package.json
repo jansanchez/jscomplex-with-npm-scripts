@@ -1,0 +1,41 @@
+{
+  "name": "jscomplex-with-npm-scripts",
+  "version": "1.0.0",
+  "description": "A repo for use jscomplex with npm scripts",
+  "main": "index.js",
+  "scripts": {
+    "jscomplex": "jscomplex \"['./index.js', './js/**/*.js']\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyclomatic",
+    "complexity",
+    "halstead",
+    "effort",
+    "vocabulary",
+    "volume",
+    "metrics",
+    "javascript",
+    "es6",
+    "esnext",
+    "software",
+    "npm"
+  ],
+  "author": {
+    "name": "jansanchez",
+    "email": "joejansanchez@gmail.com",
+    "url": "http://frontendlabs.io/author/jansanchez"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jansanchez/jscomplex-with-npm-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jansanchez/jscomplex-with-npm-scripts/issues"
+  },
+  "homepage": "https://github.com/jansanchez/jscomplex-with-npm-scripts#readme",
+  "devDependencies": {
+    "jscomplex": "^1.0.2"
+  }
+}
